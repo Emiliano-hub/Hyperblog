@@ -2,7 +2,6 @@ body{
    text-align: center;
    font-family: courier;
    color: #ff0000;
-
 }
 
 .Container{
@@ -13,12 +12,13 @@ body{
 }
 
 .Container p{
-   color: #00ff00;
+   color: #0000ff;
 }
 
 .Head {
    background: #33A;
    display: flex;
+   /* justify-content: space-between; */
    padding: 20px;
    color: white;
    font-family: arial;
