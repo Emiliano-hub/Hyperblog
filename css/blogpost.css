@@ -2,13 +2,24 @@ body{
    text-align: center;
    font-family: courier;
    color: #ff0000;
+
 }
 
 .Container{
+   width: 540px;
+   margin: auto;
    border: 2px solid blue;
    border-radius: 5px;
 }
 
 .Container p{
    color: #00ff00;
+}
+
+.Head {
+   background: #33A;
+   display: flex;
+   padding: 20px;
+   color: white;
+   font-family: arial;
 }
