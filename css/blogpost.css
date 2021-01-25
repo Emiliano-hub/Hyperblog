@@ -3,6 +3,7 @@ body{
    font-family: courier;
    color: #ff0000;
    margin: 0;
+   padding: 0;
 }
 
 .Container{
@@ -10,7 +11,7 @@ body{
    margin: auto;
    border: 2px solid blue;
    border-radius: 5px;
-   min-height: calc(100vh - 59.44px)
+   min-height: calc(100vh - 64px)
 }
 
 .Container p{
@@ -26,10 +27,15 @@ body{
    font-family: arial;
 }
 
+.content {
+  margin: 27% auto;
+}
+
+
 .footer {
   display: flex;
   justify-content: center;
   background: rgb(182, 231, 51);
   /* border: solid; */
-  height: 10%;
+  height: 60px;
 }
