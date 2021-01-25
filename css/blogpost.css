@@ -3,7 +3,7 @@ body{
    font-family: courier;
    color: #ff0000;
    background: bisque;
-   margin: 0
+   margin: 0;
 }
 
 .Container{
@@ -21,7 +21,6 @@ body{
 .header {
    background: #33A;
    display: flex;
-   /* justify-content: space-between; */
    padding: 20px;
    color: white;
    font-family: Arial;
