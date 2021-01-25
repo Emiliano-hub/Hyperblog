@@ -2,7 +2,8 @@ body{
    text-align: center;
    font-family: courier;
    color: #ff0000;
-   margin: 0;
+   background: bisque;
+   margin: 0
 }
 
 .Container{
@@ -10,26 +11,26 @@ body{
    margin: auto;
    border: 2px solid blue;
    border-radius: 5px;
-   min-height: calc(100vh - 59.44px)
+   /* min-height: calc(100vh - 59.44px) */
+   background: #75b565;
 }
 
 .Container p{
    color: #0000ff;
 }
 
-.Head {
+.header {
    background: #33A;
    display: flex;
    /* justify-content: space-between; */
    padding: 20px;
    color: white;
-   font-family: arial;
+   font-family: Arial;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   background: rgb(182, 231, 51);
-  /* border: solid; */
   height: 10%;
 }
