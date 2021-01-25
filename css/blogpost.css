@@ -2,6 +2,7 @@ body{
    text-align: center;
    font-family: courier;
    color: #ff0000;
+   background: bisque;
 }
 
 .Container{
@@ -9,6 +10,7 @@ body{
    margin: auto;
    border: 2px solid blue;
    border-radius: 5px;
+   background: #75b565;
 }
 
 .Container p{
