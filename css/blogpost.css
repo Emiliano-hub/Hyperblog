@@ -2,7 +2,8 @@ body{
    text-align: center;
    font-family: courier;
    color: #ff0000;
-   background: bisque;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 32%, rgba(0,212,255,1) 100%);
    margin: 0;
 }
 
@@ -12,7 +13,8 @@ body{
    border: 2px solid blue;
    border-radius: 5px;
    min-height: calc(100vh - 64px);
-   background: #75b565;
+   background: rgb(253,45,45);
+background: linear-gradient(0deg, rgba(253,45,45,1) 4%, rgba(195,104,34,1) 82%);
 }
 
 .Container p{
@@ -20,7 +22,8 @@ body{
 }
 
 .header {
-   background: #33A;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 32%, rgba(0,212,255,1) 100%);
    display: flex;
    padding: 20px;
    color: white;
@@ -35,7 +38,7 @@ body{
 .footer {
   display: flex;
   justify-content: center;
-  background: rgb(182, 231, 51);
+  background: gray;
   /* border: solid; */
   height: 60px;
 }
